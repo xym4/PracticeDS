@@ -23,15 +23,22 @@ class HashTable:
             if entry[0] == key:
                 return entry[1]
         return None
-    
+
 # h_table = HashTable(20)
 # h_table.add_entry("dog", 7)
 # h_table.add_entry("goat", 8)
-#
+# h_table.add_entry("cpg", 29)
 # print(h_table.htable)
 #
 # print(h_table.retrieve_entry("dog"))
+# print(h_table.retrieve_entry("cpg"))
+# print(h_table.retrieve_entry("goat"))
 
+# count = 0
+# for letter in "cpg":
+#     count+= ord(letter)
+#
+# print(count)
 
 
 
